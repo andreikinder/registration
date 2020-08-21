@@ -89,9 +89,9 @@
 
                 <!-- Password -->
                 <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
-                <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                    At least 8 characters and 1 digit
-                </small>
+<!--                <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">-->
+<!--                    At least 8 characters and 1 digit-->
+<!--                </small>-->
 
                 <!-- Phone number -->
 <!--                <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">-->
