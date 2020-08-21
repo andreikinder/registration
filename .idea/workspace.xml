@@ -1,8 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/block/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation-form/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation-form/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gGzsJsQtTP0LZFWjYgV0iXDikB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\registration\validation-form" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="" />
+      <created>1597755922456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597755922456</updated>
+      <workItem from="1597755924454" duration="8797000" />
+      <workItem from="1598003648314" duration="5000" />
+      <workItem from="1598003660710" duration="348000" />
+      <workItem from="1598004016148" duration="302000" />
+      <workItem from="1598004388121" duration="453000" />
+      <workItem from="1598004852588" duration="317000" />
+      <workItem from="1598005248678" duration="5535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1597765583839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597765583839" />
+    <state x="836" y="422" key="Github.ShareDialog" timestamp="1597756063807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="836" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597756063807" />
+    <state x="800" y="142" key="Github.UntrackedFilesDialog" timestamp="1597756069888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="800" y="142" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597756069888" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1598010641500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598010641500" />
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597765589573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597765589573" />
   </component>
 </project>
