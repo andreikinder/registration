@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="">
+    <list default="true" id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="add form with update profile">
+      <change afterPath="$PROJECT_DIR$/success_change.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation-form/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exit.php" beforeDir="false" afterPath="$PROJECT_DIR$/exit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-form/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/validation-form/auth.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,10 @@
       <workItem from="1598004016148" duration="302000" />
       <workItem from="1598004388121" duration="453000" />
       <workItem from="1598004852588" duration="317000" />
-      <workItem from="1598005248678" duration="5920000" />
+      <workItem from="1598005248678" duration="6101000" />
+      <workItem from="1598276146487" duration="22000" />
+      <workItem from="1600413806570" duration="4279000" />
+      <workItem from="1600421493038" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="registration and auth">
       <created>1598011066344</created>
@@ -87,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598011066345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="registration and auth ver 2">
+      <created>1598011216957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598011216957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,16 +117,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="registration and auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration and auth" />
+    <MESSAGE value="registration and auth ver 2" />
+    <MESSAGE value="add form with update profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add form with update profile" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1598011065762">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600418450971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598011065762" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600418450971" />
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1600421530707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600421530707" />
     <state x="836" y="422" key="Github.ShareDialog" timestamp="1597756063807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -121,14 +142,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="142" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597756069888" />
-    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1598010641500">
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1600417775903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598010641500" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598011114044">
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600417775903" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598011226338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598011114044" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598011226338" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597765589573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

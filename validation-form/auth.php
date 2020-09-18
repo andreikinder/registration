@@ -24,7 +24,7 @@ if (count($result) == 0){
     echo 'This user not found';
     exit();
 }
-setcookie('user', $result[0]['name'], time() + 3600, "/");
+setcookie('user', serialize($result[0]), time() + 3600, "/");
 
 header('Location:  / ');
 

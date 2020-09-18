@@ -128,8 +128,34 @@
             <!-- Default form register -->
         </div>
     </div>
-    <? else: ?>
-        <p>Hello <?=$_COOKIE['user'] ?>. Click to logout <a href="/exit.php">Logout</a></p>
+    <? else:
+        $user = (unserialize($_COOKIE['user']));?>
+        <p>Hello <?= $user['name']?>. Click to logout <a href="/exit.php">Logout</a></p>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="text-center border border-light p-5" action="validation-form/update.php" method="post">
+
+                    <p class="h4 mb-4">Change your data</p>
+
+                    <label for="defaultRegisterFormEmail">E-mail:</label>
+                    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4"   name="login" placeholder="<?= $user['login']?>">
+
+                    <label for="defaultRegisterFormEmail">Name:</label>
+                    <input type="text" id="defaultRegisterFormFirstName" class="form-control mb-4"  name="name" placeholder="<?= $user['name']?>">
+
+                    <label for="defaultRegisterFormEmail">Password:</label>
+                    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="**********" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
+
+                    <button class="btn btn-info my-4 btn-block" type="submit">Save</button>
+
+
+
+                </form>
+
+            </div>
+        </div>
+
+        
     <? endif; ?>
 
 </div>
