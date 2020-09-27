@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="add form with update profile">
-      <change afterPath="$PROJECT_DIR$/success_change.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation-form/update.php" afterDir="false" />
+    <list default="true" id="8b696d78-adcc-4fef-a4a8-ba2a9bc4162a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/upload-avatar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exit.php" beforeDir="false" afterPath="$PROJECT_DIR$/exit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-form/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/validation-form/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-form/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/validation-form/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation-form/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/validation-form/update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\registration" />
       <recent name="C:\OSPanel\domains\registration\validation-form" />
     </key>
   </component>
@@ -85,7 +85,11 @@
       <workItem from="1598005248678" duration="6101000" />
       <workItem from="1598276146487" duration="22000" />
       <workItem from="1600413806570" duration="4279000" />
-      <workItem from="1600421493038" duration="52000" />
+      <workItem from="1600421493038" duration="4598000" />
+      <workItem from="1600517764499" duration="2000" />
+      <workItem from="1600698171798" duration="71000" />
+      <workItem from="1600709013382" duration="25000" />
+      <workItem from="1601221268346" duration="4448000" />
     </task>
     <task id="LOCAL-00001" summary="registration and auth">
       <created>1598011066344</created>
@@ -101,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598011216957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add form with update profile">
+      <created>1600421560691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600421560692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,10 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600418450971" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1600421530707">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1600421560091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600421530707" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600421560091" />
     <state x="836" y="422" key="Github.ShareDialog" timestamp="1597756063807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,14 +153,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="142" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597756069888" />
-    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1600417775903">
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1600424653024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600417775903" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598011226338">
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600424653024" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600421621097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598011226338" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600421621097" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597765589573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

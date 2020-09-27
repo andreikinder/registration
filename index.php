@@ -133,6 +133,48 @@
         <p>Hello <?= $user['name']?>. Click to logout <a href="/exit.php">Logout</a></p>
         <div class="row">
             <div class="col-md-6">
+
+                <table class="table table-bordered">
+
+                    <tbody>
+                    <tr>
+                        <th scope="row">Name:</th>
+                        <td><?= $user['name']?> </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Email:</th>
+                        <td><?= $user['login']?> </td>
+
+                    </tr>
+                    <?php
+
+                    if (!empty($user['avatar'])) :
+                        //str_replace('\\', '/', $user['avatar']);
+
+                    ?>
+                    <tr>
+                        <th scope="row">Avatar:</th>
+<!--                        <img src="/avatars/expert1.png" alt="">-->
+                        <td><img src="<?= $user['avatar']?>" alt=""> </td>
+
+                    </tr>
+                    <?php endif;?>
+
+                    </tbody>
+                </table>
+
+
+                <form enctype="multipart/form-data" class="text-center border border-light p-5" method="post" action="upload-avatar.php">
+
+                    <p class="h4 mb-4">Upload avatar</p>
+                    <input type="file" name="avatar" value="chose-file">
+                    <button class="btn btn-info my-4 btn-block" type="submit">Upload</button>
+
+                </form>
+
+            </div>
+            <div class="col-md-6">
                 <form class="text-center border border-light p-5" action="validation-form/update.php" method="post">
 
                     <p class="h4 mb-4">Change your data</p>

@@ -11,7 +11,6 @@ $pass = md5( $pass .'qwO5Pl23' );
 require_once('../block/connect.php');
 
 
-$query = "INSERT INTO news VALUES (NULL, :name, NOW())";
 
 $data = [
     'login' => $login,

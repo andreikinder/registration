@@ -19,13 +19,12 @@ require_once('../block/connect.php');
 
 
 
-
-
 $data = [
     'login' => $login,
     'name' => $name,
     'password' => $pass,
-    'id'=> $user['id']
+    'id'=> $user['id'],
+//    'avatar' => $user['avatar']
 ];
 
 $sql = "UPDATE users SET login=:login, name=:name, password=:password WHERE id=:id";
@@ -33,7 +32,7 @@ $sql = "UPDATE users SET login=:login, name=:name, password=:password WHERE id=:
 $pdo= $pdo->prepare($sql);
 $pdo->execute($data);
 
-
+$data['avatar'] =  $user['avatar'];
 setcookie('user', serialize($data), time() + 3600, "/");
 
 header('Location: /');
